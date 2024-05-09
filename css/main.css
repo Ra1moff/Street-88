@@ -1,0 +1,16 @@
+@import url(common.css);
+@import url(fonts.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(root.css);
+
+.products__nav {
+    box-shadow: 0 1px 8px 0 rgba(17, 17, 17, 0.3);
+    background: #292929;
+}
+
+.products__list {
+    display: flex;
+    gap: 30.71px;
+}
+

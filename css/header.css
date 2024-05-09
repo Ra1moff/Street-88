@@ -1,0 +1,155 @@
+/* topper */
+
+.topper .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topper {
+    background: #000;
+    padding: 18px 0;
+}
+
+.direction {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.direction__txt {
+    font-size: 16px;
+    color: #fff;
+}
+
+.topper__list {
+    display: flex;
+    gap: 20px;
+}
+
+.topper__link {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* topper */
+
+/* nav */
+
+.nav {
+    border: 1px solid rgba(125, 115, 115, 0.5);
+    background: #000;
+    padding: 6px 0;
+}
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    gap: 14px;
+}
+
+.nav__link {
+    color: #fff;
+    font-size: 18px;
+    padding: 22px 10px;
+    transition: 0.4s;
+     
+    &:hover {
+        background: rgba(105, 207, 23, 0.75);
+    }
+}
+
+/* nav */
+
+/* header */
+
+.header {
+    background: url(../img/Header/food-burger-wallpaper-preview\ 1.jpg) no-repeat center center / cover;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 18px;
+}
+
+.header__title {
+    font-weight: 900;
+    font-size: 72px;
+    color: #69cf17;
+}
+
+.header__subtitle {
+    font-size: 36px;
+    line-height: 47%;
+    color: #69cf17;
+}
+
+.header__txt {
+    color: #fff;
+    font-size: 18px;
+    line-height: 133%;
+}
+
+.header__last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.header__price {
+    color: #fff;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 50%;
+    background: rgba(105, 207, 23, 0.5);
+    backdrop-filter: blur(18px);
+    width: 285px;
+    padding: 33px 0;
+    text-align: center;
+}
+
+.header__btn {
+    border: 1px solid #417d11;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 0;
+    width: 255px;
+    border-radius: 6px;
+    transition: 0.4s;
+
+    &:hover {
+        background: linear-gradient(90deg, #69cf17 0%, #417d11 100%);
+    }
+}
+
+.header__bottom {
+    background: #000;
+    padding: 25px;
+}
+
+.products__link {
+    color: #fff;
+    font-size: 18px;
+    line-height: 133%;
+
+    &:before {
+        background: #fff;
+        width: 87.27px;
+        height: 1px;
+    }
+}
+
+/* header */
