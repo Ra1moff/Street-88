@@ -1,0 +1,35 @@
+.footer {
+    background: linear-gradient(180deg, #000 0%, rgba(105, 207, 23, 0.5) 100%);
+    padding-top: 30px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 81px;
+}
+
+.footer__number {
+    color: #fff;
+}
+
+.footer__list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer__PROWEB {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #1a3406;
+    padding: 19px 0;
+    margin-top: 81px;
+}

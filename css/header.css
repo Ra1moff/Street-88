@@ -140,16 +140,4 @@
     padding: 25px;
 }
 
-.products__link {
-    color: #fff;
-    font-size: 18px;
-    line-height: 133%;
-
-    &:before {
-        background: #fff;
-        width: 87.27px;
-        height: 1px;
-    }
-}
-
 /* header */
