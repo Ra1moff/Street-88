@@ -23,6 +23,11 @@
 .footer__link {
     color: #fff;
     font-size: 20px;
+    transition: 0.4s;
+
+    &:hover {
+        color: #1a3406
+    }
 }
 
 .footer__PROWEB {
@@ -32,4 +37,28 @@
     background: #1a3406;
     padding: 19px 0;
     margin-top: 81px;
+
+    span {
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: proweb 2s linear infinite alternate;
+    }
 }
+
+@keyframes proweb {
+    0% {
+        color: rgb(90, 189, 90);
+    }
+
+    25% {
+        color: rgb(0, 103, 0);
+    }
+
+    50% {
+        color: rgb(39, 85, 39);
+    }
+
+    100% {
+        color: rgb(109, 160, 109);
+    }
+}
+

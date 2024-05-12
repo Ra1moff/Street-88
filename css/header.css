@@ -12,9 +12,10 @@
 }
 
 .direction {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   gap: 5px;
 }
 
 .direction__txt {
@@ -30,6 +31,11 @@
 .topper__link {
     color: #fff;
     font-size: 16px;
+    transition: 0.4s;
+
+    &:hover {
+        color: rgba(105, 207, 23, 0.75);
+    }
 }
 
 /* topper */
@@ -118,10 +124,15 @@
     width: 285px;
     padding: 33px 0;
     text-align: center;
+    transition: 0.4s;
+
+    &:hover {
+        backdrop-filter: none;
+    }
 }
 
 .header__btn {
-    border: 1px solid #417d11;
+    background: linear-gradient(90deg, #69cf17 0%, #417d11 100%);
     color: #fff;
     font-size: 18px;
     text-align: center;
@@ -129,10 +140,6 @@
     width: 255px;
     border-radius: 6px;
     transition: 0.4s;
-
-    &:hover {
-        background: linear-gradient(90deg, #69cf17 0%, #417d11 100%);
-    }
 }
 
 .header__bottom {
