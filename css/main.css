@@ -9,6 +9,9 @@
 .products__nav {
     box-shadow: 0 1px 8px 0 rgba(17, 17, 17, 0.3);
     background: #292929;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
 }
 
 .products__list {
@@ -119,22 +122,22 @@
 }
 
 .products__cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
     background: #393636;
     padding: 15px;
-    justify-content: center;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .products__card {
     background: #0c0c0c;
-    max-width: 340px;
-    width: 100%;
     padding: 15px 16px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    border: 1px solid #fff;
+    border-radius: 4px;
 }
 
 .products__card-box {
